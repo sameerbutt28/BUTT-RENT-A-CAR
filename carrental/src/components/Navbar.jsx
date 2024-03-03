@@ -3,7 +3,7 @@ export default function App() {
   return (
     <div className="flex justify-between  shadow-lg bg-slate-50">
       <div className="m-4 flex flex-row " >
-        <div>
+        <div> 
                   <img src={image} alt="logo" height={400} width={130} />
 
         </div>
