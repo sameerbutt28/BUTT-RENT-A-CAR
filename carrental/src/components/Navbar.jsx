@@ -1,11 +1,48 @@
-import React from 'react'
-
-const Navbar = () => {
+import image from "../components/yellow.png"
+export default function App() {
   return (
-    <div className=''>
-      <h1>hello</h1>
-    </div>
-  )
-}
+    <div className="flex justify-between  shadow-lg bg-slate-50">
+      <div className="m-4 flex flex-row " >
+        <div>
+                  <img src={image} alt="logo" height={400} width={130} />
 
-export default Navbar
+        </div>
+      <div>
+        <p className="font-extrabold text-yellow-500 font-mono text-4xl">
+          <a href="#">BUTT</a>
+        </p>
+        <p className="font-bold text-2xl">
+          <a href="#">
+            rent a car
+          </a>
+        </p>
+      </div>
+        
+      </div>
+
+      <div className="m-4 ">
+        <ul className="flex flex-row  font-semibold"  >
+          <li className="m-2">
+            <a href="#"> Home </a>
+          </li>
+          <li className="m-2">
+            <a href="#"> About </a>
+          </li >
+          <li className="m-2">
+            <a href="#"> Blogs </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div className="m-4">
+        <button className="m-2 font-bold bg-yellow-500 p-2 border-black">
+          Sign-In
+        </button>
+        <button className="m-2 font-bold bg-yellow-500 p-2 border-black">
+          Register
+        </button>
+      </div>
+    </div>
+  );
+}
