@@ -1,4 +1,5 @@
 import image from "../assets/yellow.png";
+
 export default function App() {
   return (
     <div className="flex justify-between  shadow-lg bg-slate-50 mb-5" >
@@ -7,7 +8,11 @@ export default function App() {
           <img src={image} alt="logo" height={400} width={130} />
         </div>
         <div>
-          <p className="font-extrabold text-yellow-500 font-mono text-4xl">
+          <p className="font-extrabold text-yellow-500 font-mono text-4xl" 
+           style={{
+            // fontFamily: ['Black Ops One', 'cursive'] 
+          }}
+        >
             <a href="#">BUTT</a>
           </p>
           <p className="font-bold text-2xl">
