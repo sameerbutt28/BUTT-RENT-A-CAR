@@ -1,4 +1,4 @@
-import image from "../components/yellow.png"
+import image from "../assets/yellow.png"
 export default function App() {
   return (
     <div className="flex justify-between  shadow-lg bg-slate-50">
@@ -37,10 +37,11 @@ export default function App() {
 
       <div className="m-4">
         <button className="m-2 font-bold bg-yellow-500 p-2 border-black">
-          Sign-In
+        <a href="#">Sign In</a>
         </button>
         <button className="m-2 font-bold bg-yellow-500 p-2 border-black">
-          Register
+        <a href="#">Register</a>
+          
         </button>
       </div>
     </div>
