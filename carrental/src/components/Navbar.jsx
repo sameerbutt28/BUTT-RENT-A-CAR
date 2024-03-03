@@ -1,8 +1,7 @@
 import image from "../assets/yellow.png";
-
 export default function App() {
   return (
-    <div className="flex justify-between  shadow-lg bg-slate-50 mb-5" >
+    <div className="flex justify-between z-10 w-full  bg-white  shadow-lg  mb-5 max-container" >
       <div className="m-4 flex flex-row ">
         <div>
           <img src={image} alt="logo" height={400} width={130} />

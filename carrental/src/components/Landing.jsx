@@ -1,7 +1,7 @@
 import Bigcar from "../assets/big.png"
 const Landing = () => {
   return (
-    <div className='flex flex-row justify-around'>
+    <div className='flex flex-row justify-around max-container w-full'>
       
 <div className='flex flex-col mt-10'>
 <p className=" font-bold text-xl">Plan your trip now</p>
