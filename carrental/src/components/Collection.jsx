@@ -1,5 +1,5 @@
-import { app, analytics, firestore } from './firebase'; 
-import 'firebase/firestore';
+import { firestore, collection, addDoc } from './firebase';
+import { useState } from 'react';
 
 export default function Collection() {
   const [carType, setCarType] = useState('');
@@ -9,27 +9,28 @@ export default function Collection() {
   const addData = async (e) => {
     e.preventDefault();
 
-    // Access the firestore instance directly
-    const firestoreInstance = firestore;
-
-    // Add data to Firestore collection
     try {
-        const docRef = firestoreInstance.collection('cars').doc(); // Create a new document reference
-        await docRef.set({
-          carType,
-          carName,
-          carModel
-        });
-      
-        console.log("Document written with ID: ", docRef.id);
-      
-        // Optionally, you can clear the form after adding data
-        setCarType('');
-        setCarName('');
-        setCarModel('');
-      } catch (error) {
-        console.error("Error adding document: ", error);
-      }
+      // Reference to the 'cars' collection
+      const carsCollectionRef = collection(firestore, "cars");
+
+      // Add a new document to the 'cars' collection with carType as the document name
+      const docRef = await addDoc(carsCollectionRef, {
+        carType: carType,
+        carDetails: {
+          carName: carName,
+          carModel: carModel
+        }
+      });
+
+      console.log("Document written with ID: ", docRef.id);
+
+      // Optionally, you can clear the form after adding data
+      setCarType('');
+      setCarName('');
+      setCarModel('');
+    } catch (error) {
+      console.error("Error adding document: ", error);
+    }
   };
 
   return (
@@ -42,4 +43,4 @@ export default function Collection() {
       </button>
     </form>
   );
-};
+}
