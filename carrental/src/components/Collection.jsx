@@ -1,4 +1,4 @@
-import { getFirestore, doc, setDoc } from "firebase/firestore";
+import {  doc, setDoc } from "firebase/firestore";
 import { firestore } from "./firebase";
 import { useState } from "react";
 
