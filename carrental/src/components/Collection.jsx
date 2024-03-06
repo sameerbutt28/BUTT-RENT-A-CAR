@@ -1,7 +1,7 @@
 import {  doc, setDoc } from "firebase/firestore";
 import { firestore } from "./firebase";
 import { useState } from "react";
-
+   
 export default function Collection() {
   const [carType, setCarType] = useState("");
   const [carName, setCarName] = useState("");
