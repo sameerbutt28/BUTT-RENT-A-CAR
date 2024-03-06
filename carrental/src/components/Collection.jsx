@@ -6,7 +6,7 @@ export default function Collection() {
   const [carType, setCarType] = useState("");
   const [carName, setCarName] = useState("");
   const [carModel, setCarModel] = useState("");
-   
+    
   const addData = async (e) => {
     e.preventDefault();
 
