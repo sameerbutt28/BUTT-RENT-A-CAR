@@ -1,14 +1,14 @@
 import Bigcar from "../assets/big.png"
 const Landing = () => {
   return (
-    <div className='flex flex-row justify-around max-container w-full'>
+    <div className='flex flex-row  justify-between  w-full'>
       
-<div className='flex flex-col mt-10'>
+<div className='flex flex-col mt-10 ml-10'>
 <p className=" font-bold text-xl">Plan your trip now</p>
 <div className="flex flex-row">
-    <p className="text-7xl font-extrabold">Save &nbsp;  </p>
-<p className="text-7xl font-extrabold text-yellow-500"> big </p>
-<p className="text-7xl font-extrabold">&nbsp;  with our </p>
+    <p className="text-6xl font-extrabold">Save &nbsp;  </p>
+<p className="text-6xl font-extrabold text-yellow-500"> big </p>
+<p className="text-6xl font-extrabold">&nbsp;  with our </p>
 </div>
 <p className="text-7xl font-extrabold">  car rental</p>
 <p className="mt-3 text-gray-700">Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible </p>
@@ -18,8 +18,9 @@ const Landing = () => {
           
         </button>
 </div>
-<div className=''>
-<img src={Bigcar} alt="landingcar" />
+<div >
+<img style={{ width: '500px', 
+height: '600px' }} src={Bigcar} alt="landingcar" />
 </div>
 
 
