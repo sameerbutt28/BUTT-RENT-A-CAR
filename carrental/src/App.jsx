@@ -6,7 +6,7 @@ export default function App() {
   return (
    <div className="max-conatiner">
     <Navbar/>
-    <Hero/>
+    <Hero/>  
     <Booking/>
     {/* <Collection/> */}
    </div>
