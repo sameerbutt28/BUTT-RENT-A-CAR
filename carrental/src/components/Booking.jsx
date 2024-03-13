@@ -54,7 +54,7 @@ const Booking = () => {
               <option value="Toyota Camry">Toyota Camry</option>
               <option
                 value="audi-etron
-                           "
+                            "
               >
                 audi-etron
               </option>
