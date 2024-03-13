@@ -1,8 +1,6 @@
 import Bigcar from "../assets/big.png"
-const Landing = () => {
+const Hero = () => {
   return (
-    <div>
-      {/* Hero section */}
        <div id="hero" className='flex flex-row  justify-between  w-full'>
             
 <div className='flex flex-col mt-10 ml-10'>
@@ -27,11 +25,12 @@ height: '600px' }} src={Bigcar} alt="landingcar" />
 
 
     </div>
-{/* Booking section */}
 
-    </div>
+
+
+   
    
   )
 }
 
-export default Landing
+export default Hero

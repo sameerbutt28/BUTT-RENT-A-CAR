@@ -1,12 +1,14 @@
+import Booking from "./components/Booking"
 import Collection from "./components/Collection"
-import Landing from "./components/Landing"
+import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 export default function App() {
   return (
    <div className="max-conatiner">
     <Navbar/>
-    <Landing/>
-    <Collection/>
+    <Hero/>
+    <Booking/>
+    {/* <Collection/> */}
    </div>
   )
 }
