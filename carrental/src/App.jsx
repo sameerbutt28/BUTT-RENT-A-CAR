@@ -1,5 +1,6 @@
 import Booking from "./components/Booking"
 import Collection from "./components/Collection"
+import Faq from "./components/Faq"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <Hero/>  
     <Booking/>
     {/* <Collection/> */}
+    <Faq/>
    </div>
   )
 }

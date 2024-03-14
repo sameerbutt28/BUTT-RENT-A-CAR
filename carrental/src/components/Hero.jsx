@@ -1,7 +1,9 @@
 import Bigcar from "../assets/big.png"
+import image from "../assets/yellow.png";
+
 const Hero = () => {
   return (
-       <div id="hero" className='flex flex-row  justify-between  w-full'>
+       <div id="hero" className='flex flex-row  justify-between  w-full '>
             
 <div className='flex flex-col mt-10 ml-10'>
 <p className=" font-bold text-xl">Plan your trip now</p>
