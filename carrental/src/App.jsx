@@ -12,6 +12,7 @@ export default function App() {
       </div>
       <div className=" mt-10 mb-10 " >
         <Hero />
+        
       </div>
       <div className=" mt-10 mb-10 " >
         <Booking />
