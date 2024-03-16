@@ -6,7 +6,7 @@ const Faq = () => {
         <p className="text-5xl font-extrabold text-center p-2">
           Quick & easy car rental
         </p>
-      </div>     
+      </div>        
       <div className="flex flex-row flex-wrap justify-evenly ">
         <div
           className="flex flex-col justify-center items-center text-center p-2"
