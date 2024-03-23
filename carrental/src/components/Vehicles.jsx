@@ -6,7 +6,7 @@ const Vehicles = () => {
     mark:"honda",    
     year:"2019",
     doors:"2",
-    AC: "yes",
+    AC: "yes",   
     fuel:"petrol",
     rent:"$35"
   });
