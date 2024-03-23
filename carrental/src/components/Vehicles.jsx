@@ -3,7 +3,7 @@ import { useState } from "react";
 const Vehicles = () => {
   const [data, setData] = useState({
     model: "rs",
-    mark:"honda",
+    mark:"honda",  
     year:"2019",
     doors:"2",
     AC: "yes",
