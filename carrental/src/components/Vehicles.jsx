@@ -124,7 +124,7 @@ const Vehicles = () => {
                 <th className="py-4 px-6 text-center  font-bold text-gray-800">{data.rent}</th>
                 <th className="py-4 px-6 text-center  font-bold">/ rent per day</th>
               </tr>
-            </thead>
+            </thead> 
             <tbody>
               <tr>
                 <td className="py-4 px-6 text-center border font-bold">Model</td>
