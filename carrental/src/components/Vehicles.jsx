@@ -4,7 +4,7 @@ const Vehicles = () => {
   const [data, setData] = useState({
     model: "rs",
     mark:"honda",    
-    year:"2019",
+    year:"2019",  
     doors:"2",
     AC: "yes",   
     fuel:"petrol",
