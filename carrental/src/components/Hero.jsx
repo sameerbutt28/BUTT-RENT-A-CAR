@@ -22,7 +22,7 @@ const Hero = () => {
 </div>
 <div >
 <img style={{ width: '500px', 
-height: '600px' }} src={Bigcar} alt="landingcar" />
+height: '600px' }} src=" " alt="landingcar" />
 </div>
 
 
