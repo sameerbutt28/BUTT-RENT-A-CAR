@@ -15,7 +15,7 @@ const Hero = () => {
 <p className="text-7xl font-extrabold">  car rental</p>
 <p className="mt-3 text-gray-700">Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible </p>
 <p className=" text-gray-700"> pick-up options and much more.</p>
-<button className="m-2 font-bold bg-yellow-500 p-4 border-black">
+<button className="m-2 font-bold bg-yellow-500  p-4 border-black">
         <a href="#">Book Ride Now</a>
           
         </button>
