@@ -1,19 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import yellow from "../assets/yellow.png"
+
 export default function Navbar() {
+  const location = useLocation();
+
   return (
     <div className="flex justify-between z-10 w-full bg-white shadow-lg mb-5 max-container">
-      <div className="m-4 flex flex-row ">
+      <div className="m-4 flex flex-row">
         <div>
           <img src={yellow} alt="logo" height={190} width={150} />
         </div>
         <div>
-          <p className="font-extrabold text-yellow-500 font-mono text-4xl" 
-           style={{
-            // fontFamily: ['Black Ops One', 'cursive'] 
-          }}
-        >
+          <p className="font-extrabold text-yellow-500 font-mono text-4xl">
             <a href="#">BUTT</a>
           </p>
           <p className="font-bold text-2xl">
@@ -25,10 +24,10 @@ export default function Navbar() {
       <div className="mt-8">
         <ul className="flex flex-row font-semibold">
           <li className="m-2">
-            <Link to="/">Home</Link>
+            <Link to="/" className={`hover:text-yellow-500 ${location.pathname === '/' ? 'text-yellow-500' : ''}`}>Home</Link>
           </li>
           <li className="m-2">
-            <Link to="/about">About</Link>
+            <Link to="/about" className={`hover:text-yellow-500 ${location.pathname === '/about' ? 'text-yellow-500' : ''}`}>About</Link>
           </li>
           <li className="m-2">
             <a href="#">Blogs</a>
@@ -47,5 +46,3 @@ export default function Navbar() {
     </div>
   );
 }
-
- 
