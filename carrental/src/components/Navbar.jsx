@@ -30,7 +30,7 @@ export default function Navbar() {
             <Link to="/about" className={`hover:text-yellow-500 ${location.pathname === '/about' ? 'text-yellow-500' : ''}`}>About</Link>
           </li>
           <li className="m-2">
-            <a href="#">Blogs</a>
+            <Link to="/collection" className={`hover:text-yellow-500 ${location.pathname === '/collection' ? 'text-yellow-500' : ''}`}>Collection</Link>
           </li>
         </ul>
       </div>

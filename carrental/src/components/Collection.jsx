@@ -1,13 +1,12 @@
-import {  doc, setDoc } from "firebase/firestore";
+import { doc, setDoc, collection, getDocs } from "firebase/firestore";
 import { firestore } from "./firebase";
 import { useState } from "react";
-           
 
 export default function Collection() {
   const [carType, setCarType] = useState("");
   const [carName, setCarName] = useState("");
   const [carModel, setCarModel] = useState("");
-     
+
   const addData = async (e) => {
     e.preventDefault();
 
@@ -41,18 +40,21 @@ export default function Collection() {
       className="mb-10 flex flex-col justify-center items-center gap-2 "
     >
       <input
+        className="mt-3 p-2"
         type="text"
-        placeholder="Enter car type"
+        placeholder="Enter car type or ID"
         value={carType}
         onChange={(e) => setCarType(e.target.value)}
       />
       <input
+        className="mt-3 p-2"
         type="text"
         placeholder="Enter car name"
         value={carName}
         onChange={(e) => setCarName(e.target.value)}
       />
       <input
+        className="mt-3 p-2"
         type="text"
         placeholder="Enter car model"
         value={carModel}
@@ -60,9 +62,9 @@ export default function Collection() {
       />
       <button
         type="submit"
-        className="m-2 font-bold bg-yellow-500 p-4 border-black"
+        className="m-2 font-bold bg-yellow-500 py-2 px-7 border-black"
       >
-        Add
+        Submit
       </button>
     </form>
   );

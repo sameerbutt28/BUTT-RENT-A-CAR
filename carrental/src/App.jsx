@@ -41,6 +41,7 @@ export default function App() {
           } />
          
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/collection" element={<Collection />} />
           {/* Add more Route components for other pages if needed */}
         </Routes>
         <div className="mt-20 ">
