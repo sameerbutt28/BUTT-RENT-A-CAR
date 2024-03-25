@@ -217,8 +217,8 @@ const Booking = () => {
             />
           </div>
         </div>
-        <button className="m-2 font-bold bg-yellow-500 p-4 border-black">
-          <a href="#"> Search </a>
+        <button className="m-2 w-full  font-bold bg-yellow-500 px-7 py-3 border-black">
+          <a href="#">Register</a>
         </button>
       </form>
     </div>

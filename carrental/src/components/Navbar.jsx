@@ -38,7 +38,7 @@ export default function App() {
         <button className="m-2 font-bold p-4 border-black">
           <a href="#">Sign In</a>
         </button>
-        <button className="m-2 font-bold bg-yellow-500 p-4 border-black">
+        <button className="m-2  font-bold bg-yellow-500 px-7 py-3 border-black">
           <a href="#">Register</a>
         </button>
       </div>
