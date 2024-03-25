@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <footer className="  py-12" style={{ boxShadow: '0px -6px 7px rgba(0, 0, 0, 0.3)' }}>
-      <div className="container mx-auto flex flex-wrap justify-evenly text-center   ">
+      <div className="container mx-auto flex flex-wrap justify-evenly  text-left   ">
         {/* First Column */}
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 px-4 mb-4">
           <h3 className="text-3xl font-extrabold mb-4">BUTT 
