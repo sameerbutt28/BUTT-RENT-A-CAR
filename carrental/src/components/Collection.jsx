@@ -148,7 +148,7 @@ const Collection = () => {
   <h2 className="text-3xl font-bold text-center  mt-6  text-gray-800">Car Collection</h2>
   <div className="grid grid-cols-1 m-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
     {carsData.map((car) => (  
-      <div key={car.id} className="bg-white border m-5 border-gray-300 p-4 rounded-lg shadow-lg hover:shadow-lg transition text-center duration-300">
+      <div key={car.id} className="bg-white border m-5 border-gray-300 p-4 rounded-lg hover:shadow-lg transition text-center duration-300" style={{ boxShadow: "0px 2.98256px 7.4564px rgba(3, 0.7, 0.7, 0.7)" }}>
         <h3 className="text-lg font-semibold mb-2">{car.carName}</h3>
         <p className="text-gray-800"><span className="font-bold">Type:</span> {car.carType}</p>
         <p className="text-gray-800"><span className="font-bold">Model:</span> {car.carModel}</p>
