@@ -221,7 +221,9 @@ const Booking = () => {
           <a href="#">Register</a>
         </button>
       </form>
+      
     </div>
+    
   );
 };
 

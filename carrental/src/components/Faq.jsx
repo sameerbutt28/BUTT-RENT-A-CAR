@@ -1,6 +1,11 @@
 const Faq = () => {
   return (
     <div className="flex flex-col  justify-center ">
+      <br />
+      <br />
+      <br />
+      <br />
+
       <div className="flex flex-col items-center justify-center m-6 p-2">
         <p className="font-bold text-xl text-center p-2">Plan your trip now</p>
         <p className="text-5xl font-extrabold text-center p-2">

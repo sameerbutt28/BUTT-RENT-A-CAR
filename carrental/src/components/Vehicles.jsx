@@ -69,6 +69,10 @@ const Vehicles = () => {
  
   return (
     <div>
+      <br />
+      <br />
+      <br />
+
       <div className="flex flex-col items-center justify-center m-6 p-2">
         <p className="font-bold text-2xl text-center p-2">Vehicle Models</p>
         <p className="text-3xl font-extrabold text-center p-2">
@@ -84,31 +88,31 @@ const Vehicles = () => {
         <div className="flex flex-col">
           <button
             onClick={handlegrande}
-            className="m-2 font-bold bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
+            className="m-2 text-xl font-bold  bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
           >
             Grande
           </button>
           <button
             onClick={handecivic}
-            className="m-2 font-bold bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
+            className="m-2 font-bold text-xl  bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
           >
             Civic
           </button>
           <button
             onClick={handleaudi}
-            className="m-2 font-bold bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
+            className="m-2 font-bold text-xl  bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
           >
             Audi
           </button>
           <button
             onClick={handlegtr}
-            className="m-2 font-bold bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
+            className="m-2 font-bold text-xl   bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
           >
             GTR
           </button>
           <button
             onClick={handlelexux}
-            className="m-2 font-bold bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
+            className="m-2 font-bold text-xl  bg-gray-200 hover:bg-yellow-500 focus:bg-yellow-500 active:bg-yellow-500 active:text-black text-black p-6 border-black"
           >
             Lexux 570
           </button>
@@ -158,7 +162,11 @@ const Vehicles = () => {
 
       <br />
       <br /><br />
+      <br />
+      <br />
+
       <div className=" bg-zinc-900 flex flex-col justify-center">
+        
 <p className="text-5xl font-bold text-white items-center text-center mt-6   p-3">
 <span className="text-yellow-500">
   Save big &nbsp; 
@@ -182,6 +190,8 @@ Support
 
 </div>
       </div>
+      <br />
+      
     </div>
   );
 };

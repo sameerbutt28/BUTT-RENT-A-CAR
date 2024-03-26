@@ -42,6 +42,9 @@ function App() {
 
   return (
     <div>
+      <br />
+      <br />
+      <br />
 
 <div className='flex flex-col justify-center items-center '>
 <p className=' mt-5 p-2 text-xl font-bold'>FAQ</p>
