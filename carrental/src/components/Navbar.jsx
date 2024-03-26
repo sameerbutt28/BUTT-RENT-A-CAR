@@ -9,13 +9,13 @@ export default function Navbar() {
     <div className="flex justify-between z-10 w-full bg-white shadow-lg mb-5 max-container">
       <div className="m-4 flex flex-row">
         <div>
-          <img src={yellow} alt="logo" height={190} width={150} />
+          <img src={yellow} alt="logo" height={150} width={150} />
         </div>
         <div>
-          <p className="font-extrabold text-yellow-500 font-mono text-4xl">
-            <a href="#">BUTT</a>
+          <p className=" font-extrabold font-mono text-yellow-500  text-6xl">
+            <a href="#">بٹ </a>
           </p>
-          <p className="font-bold text-2xl">
+          <p className="font-bold text-2xl">    
             <a href="#">rent a car</a>
           </p>
         </div>

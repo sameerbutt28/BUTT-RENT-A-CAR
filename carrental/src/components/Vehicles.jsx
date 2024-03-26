@@ -171,7 +171,13 @@ const Vehicles = () => {
 <span className="text-yellow-500">
   Save big &nbsp; 
 </span>
- with our cheap car renting!
+ with 
+ <span className="text-6xl font-extrabold">
+ &nbsp; بٹ &nbsp; 
+ </span>
+
+ 
+   rent a car!
 </p>
 <div className="flex flex-row justify-evenly m-3 p-4  ">
 <p className="text-gray-300 text-xl">

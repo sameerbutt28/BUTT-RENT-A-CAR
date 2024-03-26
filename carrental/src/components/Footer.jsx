@@ -5,8 +5,9 @@ function Footer() {
       <div className="container mx-auto flex flex-wrap justify-evenly  text-left   ">
         {/* First Column */}
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 px-4 mb-4">
-          <h3 className="text-3xl font-extrabold mb-4">BUTT 
-           <span className='  font-normal'> rent a car</span>
+          <h3 className="text-5xl font-extrabold mb-4 text-yellow-600">            <a href="#">بٹ </a>
+
+           <span className='  font-normal text-2xl text-black'> rent a car</span>
           </h3>
           <p className="text-gray-600 ">We offer a wide range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
           <p className="mt-4 font-semibold">(123) -456-789</p>
