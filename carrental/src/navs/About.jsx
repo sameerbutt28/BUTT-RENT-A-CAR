@@ -47,6 +47,22 @@ const About = () => {
             </p>
           </div>
         </div>
+        <br />
+        <br />
+        <br />  
+        <div className=" bg-zinc-900 flex flex-row justify-evenly mt-10 p-6">
+<p className="text-3xl font-bold text-white items-center text-center mt-6   p-3">
+
+Book a car by getting in touch with us
+</p>
+<div className="flex flex-row justify-evenly m-3 p-4  ">
+<p className="text-yellow-500 text-3xl font-bold">
+☎️ (123) 456-7869</p>
+
+
+
+</div>
+      </div>
       </div>
     );
   };

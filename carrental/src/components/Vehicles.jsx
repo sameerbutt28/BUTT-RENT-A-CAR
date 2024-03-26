@@ -158,7 +158,7 @@ const Vehicles = () => {
 
       <br />
       <br /><br />
-      <div className=" bg-zinc-800 flex flex-col justify-center">
+      <div className=" bg-zinc-900 flex flex-col justify-center">
 <p className="text-5xl font-bold text-white items-center text-center mt-6   p-3">
 <span className="text-yellow-500">
   Save big &nbsp; 
