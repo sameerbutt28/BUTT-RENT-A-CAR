@@ -44,7 +44,7 @@ const Collection = () => {
         carModel: carModel,
         carColor: carColor,
       });
-  
+   
       console.log("Document added successfully");
   
       // Clear the form after adding data
